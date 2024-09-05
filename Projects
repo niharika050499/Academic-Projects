@@ -1,12 +1,39 @@
-1.	Database Project: Factory Management System – MYSQL 
-Designed a relational Factory Management System database with 10 interconnected tables,
-crafting the schema and entity relationships to maintain data integrity and executing complex SQL queries for customer data analysis & reporting.
+Database Project: Factory Management System – MySQL
 
+Project Overview: Developed a comprehensive relational database for managing factory operations, encompassing production, inventory, employees, and customer orders, aimed at optimizing data storage and retrieval for efficient factory management.
+Schema Design: Created a database schema with 10 interconnected tables that reflected key entity relationships such as suppliers, products, employees, machinery, and customer orders, ensuring referential integrity and optimized data normalization.
+Entity Relationship Management: Established ER diagrams to define relationships between different entities (e.g., one-to-many, many-to-many relationships) to ensure consistent data flow and support business logic across the system.
+
+Complex SQL Queries:
+Wrote advanced SQL queries to retrieve and analyze key factory metrics, including customer order trends, product performance, and employee productivity reports.
+Implemented join operations, subqueries, and aggregate functions to perform detailed customer data analysis, reporting, and ensure data consistency.
+Data Integrity & Optimization: Employed constraints, triggers, and indexes to maintain data integrity and enhance query performance, ensuring accurate reporting and efficient database management.
+
+Reporting and Analytics: Generated automated reports for operational analysis, highlighting KPIs like production efficiency, supply chain status, and sales forecasts based on real-time data.
+Tools & Technologies:MySQL, SQL, Lucidchart (for ER diagrams), Jira, Excel
 Key Skills: SQL Query writing and Data Modelling 
  
 2.	Customer Relationship Management- Salesforce 
 Engineered a comprehensive online ticketing system using Salesforce CRM
 to streamline support operations for an e-learning platform ensuring efficient issue tracking and enhanced customer service experiences. 
+
+Ticketing System Design:
+
+Developed a customized Salesforce Service Cloud solution that automated ticket creation, assignment, and escalation processes for incoming customer issues.
+Integrated case management, enabling the support team to categorize and prioritize issues based on urgency and complexity, resulting in faster resolution times.
+Automation & Workflow Optimization:
+
+Implemented workflow rules and automation to assign tickets to the appropriate support teams based on predefined criteria, ensuring seamless and efficient routing.
+Integrated email-to-case functionality, allowing customers to submit support requests via email, automatically generating a case in Salesforce for further action.
+Enhanced Reporting & Analytics:
+
+Utilized Salesforce reporting tools to track KPIs, such as case resolution time, customer satisfaction, and support team performance, enabling data-driven decisions to improve service levels.
+Developed custom dashboards to provide real-time insights into support metrics, facilitating improved resource allocation and issue management.
+Collaboration & Customer Experience:
+
+Designed self-service features including a customer portal and a knowledge base that empowered users to find solutions to common issues independently, reducing the volume of incoming support tickets.
+Ensured high-quality customer interactions by setting up automated email notifications for customers, keeping them informed of the status of their issues throughout the resolution process.
+Tools & Technologies:
 
 Key Skills: Salesforce expertise, Problem solving, Project Management 
  
@@ -21,3 +48,26 @@ Led a digital product management initiative, formulating a market-viable roadmap
 while steering cross- functional teams towards a user-centric design prototype and iterative feedback integration for product excellence. 
 
 Key Skills: Figma, Marvel, Confluence, Trello, Power Point, Jira 
+
+5. Predictive Analytics for Customer Churn Prediction in E-commerce
+
+Objective:
+The goal of this project was to develop a machine learning model to predict customer churn in an e-commerce business, enabling the company to proactively retain customers by implementing targeted marketing strategies.
+
+Project Overview:
+
+Data Collection: Gathered customer data from a real-world e-commerce dataset, which included information on user behavior, transaction history, and engagement patterns.
+Data Preprocessing: Cleaned and preprocessed the data by handling missing values, normalizing features, and conducting feature engineering to extract valuable insights such as average purchase frequency and customer lifetime value.
+Model Development:
+Used Python libraries like scikit-learn and TensorFlow to build various machine learning models, including Logistic Regression, Random Forest, and Gradient Boosting.
+Evaluated the performance of models using metrics such as ROC-AUC, precision, and recall to select the best-performing model.
+Deployed the final model using Flask and Gradio to create an easy-to-use interface for business analysts.
+Outcome: The predictive model achieved an accuracy of 87% in predicting customer churn, and insights derived from feature importance led to actionable recommendations that could help the business reduce churn by 15%.
+Tools & Technologies:
+
+Python (scikit-learn, pandas, TensorFlow)
+Data Visualization: Matplotlib, Seaborn
+Cloud Deployment: AWS EC2
+Version Control: GitHub
+Interface: Flask, Gradio
+
